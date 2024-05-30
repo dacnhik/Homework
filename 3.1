@@ -9,6 +9,9 @@ elif Oper == "-":
 elif Oper == "*":
     print(Num_1 * Num_2)
 elif Oper == "/":
-    print(Num_1 / Num_2)
+    if Num_2 == 0:
+        print("Сannot be divided by 0")
+    else:
+        print(Num_1 / Num_2)
 else:
     print("Check your data")
